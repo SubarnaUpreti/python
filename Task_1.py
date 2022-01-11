@@ -1,6 +1,6 @@
 print("Stop! Who would cross the Bridge of Death\nMust answer me these questions three, 'ere the other side he see.")
 question_1 = input("What is your name? ")
-if question_1.capitalize() == "Arthur":
+if "Arthur" in question_1.capitalize() :
     print("My liege! You may pass!")
 else :
     question_2 = input("What is your quest? ")
